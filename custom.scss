@@ -1,0 +1,38 @@
+/*-- scss:defaults --*/
+
+// Palet minimal
+$ink:    #1f2328;   // teks — hampir hitam
+$muted:  #6a737d;   // teks sekunder
+$accent: #0969da;   // satu-satunya warna — link (ganti kalau mau)
+$bg:     #ffffff;
+
+$body-bg: $bg;
+$body-color: $ink;
+$link-color: $accent;
+$link-decoration: none;
+
+// Navbar putih polos, bukan gelap
+$navbar-bg: $bg;
+$navbar-fg: $ink;
+
+// Tipografi
+$font-family-sans-serif: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+$font-size-root: 17px;
+$headings-font-weight: 650;
+
+/*-- scss:rules --*/
+
+// Napas antar elemen
+.navbar { border-bottom: 1px solid #eaecef; }
+.quarto-title-banner { background: $bg; color: $ink; }
+h1.title { font-size: 2rem; }
+.subtitle { color: $muted; font-size: 1.05rem; max-width: 42rem; }
+
+// Listing post lebih tenang
+.quarto-post .listing-title { font-size: 1.35rem; font-weight: 600; }
+.quarto-post .listing-categories .listing-category {
+  border: none; background: #f6f8fa; color: $muted;
+}
+
+// Link muncul underline hanya saat hover
+a:hover { text-decoration: underline; }
