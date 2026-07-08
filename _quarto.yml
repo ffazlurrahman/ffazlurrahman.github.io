@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Guritlab"
+  
   description: "Electronics, Data Science, and Machine Learning"
   site-url: https://ffazlurrahman.github.io
   navbar:
@@ -12,6 +12,12 @@ website:
         href: https://github.com/ffazlurrahman
       - icon: rss
         href: index.xml
+  page-footer:
+    left: "© 2026 Farhan Fazlurrahman"
+    center: "Built with Quarto · Hosted on GitHub Pages"
+    right:
+      - icon: github
+        href: https://github.com/ffazlurrahman
 
 format:
   html:
