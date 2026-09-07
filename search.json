@@ -7,6 +7,48 @@
     "text": "Saya adalah mahasiswa Master of Data Science di Monash University, dengan latar belakang di bidang elektronika dan enam tahun pengalaman di industri ketenagalistrikan Indonesia.\nBlog ini adalah tempat saya menulis tentang data science, machine learning, dan elektronika — sebagai cara untuk menguji pemahaman dan membangun portofolio."
   },
   {
+    "objectID": "posts/random-forest/index.html",
+    "href": "posts/random-forest/index.html",
+    "title": "Memahami Random Forest dari Dasar",
+    "section": "",
+    "text": "Post ini masih dalam tahap penulisan."
+  },
+  {
+    "objectID": "posts/random-forest/index.html#apa-itu-random-forest",
+    "href": "posts/random-forest/index.html#apa-itu-random-forest",
+    "title": "Memahami Random Forest dari Dasar",
+    "section": "Apa itu Random Forest?",
+    "text": "Apa itu Random Forest?\nRandom Forest adalah algoritma ensemble learning yang menggabungkan banyak decision tree untuk menghasilkan prediksi yang lebih akurat dan stabil."
+  },
+  {
+    "objectID": "posts/random-forest/index.html#mengapa-random-forest-populer",
+    "href": "posts/random-forest/index.html#mengapa-random-forest-populer",
+    "title": "Memahami Random Forest dari Dasar",
+    "section": "Mengapa Random Forest Populer?",
+    "text": "Mengapa Random Forest Populer?\n\nMudah digunakan dengan sedikit hyperparameter tuning\nBekerja baik untuk classification maupun regression\nTahan terhadap overfitting dibanding single decision tree"
+  },
+  {
+    "objectID": "posts/random-forest/index.html#implementasi-dengan-scikit-learn",
+    "href": "posts/random-forest/index.html#implementasi-dengan-scikit-learn",
+    "title": "Memahami Random Forest dari Dasar",
+    "section": "Implementasi dengan scikit-learn",
+    "text": "Implementasi dengan scikit-learn\nfrom sklearn.ensemble import RandomForestClassifier\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import accuracy_score\n\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)\n\nmodel = RandomForestClassifier(n_estimators=100)\nmodel.fit(X_train, y_train)\n\ny_pred = model.predict(X_test)\nprint(f\"Accuracy: {accuracy_score(y_test, y_pred):.2f}\")"
+  },
+  {
+    "objectID": "posts/random-forest/index.html#feature-importance",
+    "href": "posts/random-forest/index.html#feature-importance",
+    "title": "Memahami Random Forest dari Dasar",
+    "section": "Feature Importance",
+    "text": "Feature Importance\nimport pandas as pd\n\nimportance = pd.Series(model.feature_importances_, index=feature_names)\nimportance.sort_values(ascending=False).head(10).plot.barh()"
+  },
+  {
+    "objectID": "posts/random-forest/index.html#kesimpulan",
+    "href": "posts/random-forest/index.html#kesimpulan",
+    "title": "Memahami Random Forest dari Dasar",
+    "section": "Kesimpulan",
+    "text": "Kesimpulan\nAkan dilengkapi."
+  },
+  {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
     "title": "Kenapa Blog Ini Dibuat?",
@@ -91,10 +133,52 @@
     "text": "Kesimpulan\nAkan dilengkapi."
   },
   {
+    "objectID": "posts/tidyverse-intro/index.html",
+    "href": "posts/tidyverse-intro/index.html",
+    "title": "Pengenalan Tidyverse untuk Data Wrangling",
+    "section": "",
+    "text": "Post ini masih dalam tahap penulisan."
+  },
+  {
+    "objectID": "posts/tidyverse-intro/index.html#apa-itu-tidyverse",
+    "href": "posts/tidyverse-intro/index.html#apa-itu-tidyverse",
+    "title": "Pengenalan Tidyverse untuk Data Wrangling",
+    "section": "Apa itu Tidyverse?",
+    "text": "Apa itu Tidyverse?\nTidyverse adalah kumpulan package R yang dirancang untuk data science. Package utamanya meliputi dplyr, ggplot2, tidyr, readr, dan purrr."
+  },
+  {
+    "objectID": "posts/tidyverse-intro/index.html#memuat-data",
+    "href": "posts/tidyverse-intro/index.html#memuat-data",
+    "title": "Pengenalan Tidyverse untuk Data Wrangling",
+    "section": "Memuat Data",
+    "text": "Memuat Data\nlibrary(tidyverse)\n\ndf &lt;- read_csv(\"data.csv\")\nglimpse(df)"
+  },
+  {
+    "objectID": "posts/tidyverse-intro/index.html#data-wrangling-dengan-dplyr",
+    "href": "posts/tidyverse-intro/index.html#data-wrangling-dengan-dplyr",
+    "title": "Pengenalan Tidyverse untuk Data Wrangling",
+    "section": "Data Wrangling dengan dplyr",
+    "text": "Data Wrangling dengan dplyr\ndf %&gt;%\n  filter(tahun &gt;= 2020) %&gt;%\n  group_by(kategori) %&gt;%\n  summarise(\n    rata_rata = mean(nilai, na.rm = TRUE),\n    jumlah = n()\n  ) %&gt;%\n  arrange(desc(rata_rata))"
+  },
+  {
+    "objectID": "posts/tidyverse-intro/index.html#visualisasi-dengan-ggplot2",
+    "href": "posts/tidyverse-intro/index.html#visualisasi-dengan-ggplot2",
+    "title": "Pengenalan Tidyverse untuk Data Wrangling",
+    "section": "Visualisasi dengan ggplot2",
+    "text": "Visualisasi dengan ggplot2\nggplot(df, aes(x = kategori, y = nilai, fill = kategori)) +\n  geom_boxplot() +\n  labs(title = \"Distribusi Nilai per Kategori\") +\n  theme_minimal()"
+  },
+  {
+    "objectID": "posts/tidyverse-intro/index.html#kesimpulan",
+    "href": "posts/tidyverse-intro/index.html#kesimpulan",
+    "title": "Pengenalan Tidyverse untuk Data Wrangling",
+    "section": "Kesimpulan",
+    "text": "Kesimpulan\nAkan dilengkapi."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Good Day, Mate",
     "section": "",
-    "text": "&lt;!-- img(9CEB782EFEE6)[progressive=false, height=, lazy=true]:listing:posts/tidyverse-intro/index.html --&gt;\n\n\n\n\nPengenalan Tidyverse untuk Data Wrangling\n\n\n\ndata science\n\nR\n\n\n\n&lt;p&gt;Mengenal ekosistem tidyverse di R untuk manipulasi dan visualisasi data.&lt;/p&gt;\n\n\n\n\n&lt;div class=\"listing-date\"&gt;\nSep 7, 2026\n&lt;/div&gt;\n&lt;div class=\"listing-author\"&gt;\nFarhan Fazlurrahman\n&lt;/div&gt;\n\n\n\n\n\n\n\n\n\n\n\nMembaca Sensor Suhu dengan Arduino\n\n\n\nelectronics\n\narduino\n\n\n\nTutorial dasar membaca sensor suhu DHT22 dan menampilkan hasilnya di serial monitor.\n\n\n\n\n\nSep 1, 2026\n\n\nFarhan Fazlurrahman\n\n\n\n\n\n\n\n&lt;!-- img(9CEB782EFEE6)[progressive=false, height=, lazy=true]:listing:posts/random-forest/index.html --&gt;\n\n\n\n\nMemahami Random Forest dari Dasar\n\n\n\nmachine learning\n\npython\n\n\n\n&lt;p&gt;Penjelasan intuitif tentang algoritma Random Forest dan implementasinya dengan scikit-learn.&lt;/p&gt;\n\n\n\n\n&lt;div class=\"listing-date\"&gt;\nAug 25, 2026\n&lt;/div&gt;\n&lt;div class=\"listing-author\"&gt;\nFarhan Fazlurrahman\n&lt;/div&gt;\n\n\n\n\n\n\n\n\n\n\n\nExploratory Data Analysis dengan Python\n\n\n\ndata science\n\npython\n\n\n\nLangkah-langkah dasar melakukan EDA menggunakan pandas, matplotlib, dan seaborn.\n\n\n\n\n\nAug 10, 2026\n\n\nFarhan Fazlurrahman\n\n\n\n\n\n\n\n\n\n\n\n\nKenapa Blog Ini Dibuat?\n\n\n\npersonal\n\n\n\nAlasan di balik keputusan untuk mulai menulis blog tentang data science, machine learning, dan elektronika.\n\n\n\n\n\nJul 24, 2026\n\n\nFarhan Fazlurrahman\n\n\n\n\n\nNo matching items"
+    "text": "Pengenalan Tidyverse untuk Data Wrangling\n\n\n\ndata science\n\nR\n\n\n\nMengenal ekosistem tidyverse di R untuk manipulasi dan visualisasi data.\n\n\n\n\n\nSep 7, 2026\n\n\nFarhan Fazlurrahman\n\n\n\n\n\n\n\n\n\n\n\n\nMembaca Sensor Suhu dengan Arduino\n\n\n\nelectronics\n\narduino\n\n\n\nTutorial dasar membaca sensor suhu DHT22 dan menampilkan hasilnya di serial monitor.\n\n\n\n\n\nSep 1, 2026\n\n\nFarhan Fazlurrahman\n\n\n\n\n\n\n\n\n\n\n\n\nMemahami Random Forest dari Dasar\n\n\n\nmachine learning\n\npython\n\n\n\nPenjelasan intuitif tentang algoritma Random Forest dan implementasinya dengan scikit-learn.\n\n\n\n\n\nAug 25, 2026\n\n\nFarhan Fazlurrahman\n\n\n\n\n\n\n\n\n\n\n\n\nExploratory Data Analysis dengan Python\n\n\n\ndata science\n\npython\n\n\n\nLangkah-langkah dasar melakukan EDA menggunakan pandas, matplotlib, dan seaborn.\n\n\n\n\n\nAug 10, 2026\n\n\nFarhan Fazlurrahman\n\n\n\n\n\n\n\n\n\n\n\n\nKenapa Blog Ini Dibuat?\n\n\n\npersonal\n\n\n\nAlasan di balik keputusan untuk mulai menulis blog tentang data science, machine learning, dan elektronika.\n\n\n\n\n\nJul 24, 2026\n\n\nFarhan Fazlurrahman\n\n\n\n\n\nNo matching items"
   }
 ]
