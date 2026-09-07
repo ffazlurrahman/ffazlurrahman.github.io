@@ -2,29 +2,99 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Farhan Fazlurrahman",
     "section": "",
-    "text": "About this blog"
+    "text": "Saya adalah mahasiswa Master of Data Science di Monash University, dengan latar belakang di bidang elektronika dan enam tahun pengalaman di industri ketenagalistrikan Indonesia.\nBlog ini adalah tempat saya menulis tentang data science, machine learning, dan elektronika — sebagai cara untuk menguji pemahaman dan membangun portofolio."
   },
   {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
-    "title": "Kenapa Blog ini dibuat?",
+    "title": "Kenapa Blog Ini Dibuat?",
     "section": "",
-    "text": "Alasan kenapa blog ini saya buat antara lain,\n\nSaat ini, saya menyadari bahwa saya terjebak dalam situasi menghabiskan banyak sekali waktu untuk belajar tetapi kemampuan saya hanya sebatas untuk lulus sebuah mata kuliah, tanpa betul-betul merubah sesuatu yang saya pelajari menjadi sebuah keahlian praktis untuk membangun/mengembangkan sesuatu, hal ini terjadi saya rasa karena saya tidak betul betul menguji sejauh mana pemahaman yang saya miliki. Oleh karena itu saya memerlukan sebuah tempat untuk menguji pemahaman saya akan sesuatu hal, dan menulis adalah cara yang sudah direkomendasikan banyak orang sebagai cara untuk melakukan hal tersebut. Dengan adanya blog ini saya berusaha menjelaskan sesuatu dengan kata-kata saya sendiri.\n\nSehubungan dengan latar belakang keahlian saya di bidang elektronika/elektrikal dan saat ini saya sedang menyelesaikan studi saya di jurusan Data Science, maka saya akan menulis beberapa hal terkait di kedua bidang tersebut.\n\nDi dunia IT saya rasa memiliki portofolio adalah hal yang penting dan saya rasa perlu pula bagi saya untuk membangun sebuah portofolio. Portofolio merupakan bukti akan keahlian yang kita miliki,dan melalui blog ini saya coba mendokumentasikan apa yang sudah saya pelajari dan kerjakan."
+    "text": "Alasan kenapa blog ini saya buat antara lain:\n\nSaat ini, saya menyadari bahwa saya terjebak dalam situasi menghabiskan banyak sekali waktu untuk belajar tetapi kemampuan saya hanya sebatas untuk lulus sebuah mata kuliah, tanpa betul-betul merubah sesuatu yang saya pelajari menjadi sebuah keahlian praktis untuk membangun/mengembangkan sesuatu. Hal ini terjadi saya rasa karena saya tidak betul-betul menguji sejauh mana pemahaman yang saya miliki. Oleh karena itu saya memerlukan sebuah tempat untuk menguji pemahaman saya akan sesuatu hal, dan menulis adalah cara yang sudah direkomendasikan banyak orang sebagai cara untuk melakukan hal tersebut. Dengan adanya blog ini saya berusaha menjelaskan sesuatu dengan kata-kata saya sendiri.\nDi dunia IT saya rasa memiliki portofolio adalah hal yang penting dan saya rasa perlu pula bagi saya untuk membangun sebuah portofolio. Portofolio merupakan bukti akan keahlian yang kita miliki, dan melalui blog ini saya coba mendokumentasikan apa yang sudah saya pelajari dan kerjakan."
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "objectID": "posts/arduino-sensor/index.html",
+    "href": "posts/arduino-sensor/index.html",
+    "title": "Membaca Sensor Suhu dengan Arduino",
     "section": "",
-    "text": "This is a post with executable code."
+    "text": "Post ini masih dalam tahap penulisan."
+  },
+  {
+    "objectID": "posts/arduino-sensor/index.html#komponen-yang-diperlukan",
+    "href": "posts/arduino-sensor/index.html#komponen-yang-diperlukan",
+    "title": "Membaca Sensor Suhu dengan Arduino",
+    "section": "Komponen yang Diperlukan",
+    "text": "Komponen yang Diperlukan\n\nArduino Uno\nSensor DHT22\nResistor 10k ohm\nBreadboard dan jumper wire"
+  },
+  {
+    "objectID": "posts/arduino-sensor/index.html#rangkaian",
+    "href": "posts/arduino-sensor/index.html#rangkaian",
+    "title": "Membaca Sensor Suhu dengan Arduino",
+    "section": "Rangkaian",
+    "text": "Rangkaian\nHubungkan pin data DHT22 ke pin digital 2 Arduino, dengan resistor pull-up 10k ohm antara pin data dan VCC."
+  },
+  {
+    "objectID": "posts/arduino-sensor/index.html#kode-program",
+    "href": "posts/arduino-sensor/index.html#kode-program",
+    "title": "Membaca Sensor Suhu dengan Arduino",
+    "section": "Kode Program",
+    "text": "Kode Program\n#include &lt;DHT.h&gt;\n\n#define DHTPIN 2\n#define DHTTYPE DHT22\n\nDHT dht(DHTPIN, DHTTYPE);\n\nvoid setup() {\n  Serial.begin(9600);\n  dht.begin();\n}\n\nvoid loop() {\n  float suhu = dht.readTemperature();\n  float kelembapan = dht.readHumidity();\n\n  Serial.print(\"Suhu: \");\n  Serial.print(suhu);\n  Serial.print(\" C | Kelembapan: \");\n  Serial.print(kelembapan);\n  Serial.println(\" %\");\n\n  delay(2000);\n}"
+  },
+  {
+    "objectID": "posts/arduino-sensor/index.html#hasil",
+    "href": "posts/arduino-sensor/index.html#hasil",
+    "title": "Membaca Sensor Suhu dengan Arduino",
+    "section": "Hasil",
+    "text": "Hasil\nAkan dilengkapi dengan screenshot serial monitor."
+  },
+  {
+    "objectID": "posts/arduino-sensor/index.html#kesimpulan",
+    "href": "posts/arduino-sensor/index.html#kesimpulan",
+    "title": "Membaca Sensor Suhu dengan Arduino",
+    "section": "Kesimpulan",
+    "text": "Kesimpulan\nAkan dilengkapi."
+  },
+  {
+    "objectID": "posts/eda-dengan-python/index.html",
+    "href": "posts/eda-dengan-python/index.html",
+    "title": "Exploratory Data Analysis dengan Python",
+    "section": "",
+    "text": "Post ini masih dalam tahap penulisan."
+  },
+  {
+    "objectID": "posts/eda-dengan-python/index.html#pendahuluan",
+    "href": "posts/eda-dengan-python/index.html#pendahuluan",
+    "title": "Exploratory Data Analysis dengan Python",
+    "section": "Pendahuluan",
+    "text": "Pendahuluan\nExploratory Data Analysis (EDA) adalah langkah awal yang krusial dalam setiap proyek data science. Tujuannya adalah memahami struktur, pola, dan anomali dalam data sebelum kita membangun model."
+  },
+  {
+    "objectID": "posts/eda-dengan-python/index.html#tools-yang-digunakan",
+    "href": "posts/eda-dengan-python/index.html#tools-yang-digunakan",
+    "title": "Exploratory Data Analysis dengan Python",
+    "section": "Tools yang Digunakan",
+    "text": "Tools yang Digunakan\n\npandas — manipulasi dan eksplorasi data\nmatplotlib — visualisasi dasar\nseaborn — visualisasi statistik"
+  },
+  {
+    "objectID": "posts/eda-dengan-python/index.html#langkah-langkah-eda",
+    "href": "posts/eda-dengan-python/index.html#langkah-langkah-eda",
+    "title": "Exploratory Data Analysis dengan Python",
+    "section": "Langkah-langkah EDA",
+    "text": "Langkah-langkah EDA\n\n1. Memuat Data\nimport pandas as pd\n\ndf = pd.read_csv(\"data.csv\")\ndf.head()\n\n\n2. Memeriksa Struktur Data\ndf.info()\ndf.describe()\n\n\n3. Visualisasi Distribusi\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\nsns.histplot(df[\"kolom\"], kde=True)\nplt.show()"
+  },
+  {
+    "objectID": "posts/eda-dengan-python/index.html#kesimpulan",
+    "href": "posts/eda-dengan-python/index.html#kesimpulan",
+    "title": "Exploratory Data Analysis dengan Python",
+    "section": "Kesimpulan",
+    "text": "Kesimpulan\nAkan dilengkapi."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Good Day, Mate",
     "section": "",
-    "text": "Kenapa Blog ini dibuat?\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 24, 2026\n\n\nFarhan Fazlurrahman\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nJul 8, 2026\n\n\nHarlow Malloc\n\n\n\n\n\nNo matching items"
+    "text": "&lt;!-- img(9CEB782EFEE6)[progressive=false, height=, lazy=true]:listing:posts/tidyverse-intro/index.html --&gt;\n\n\n\n\nPengenalan Tidyverse untuk Data Wrangling\n\n\n\ndata science\n\nR\n\n\n\n&lt;p&gt;Mengenal ekosistem tidyverse di R untuk manipulasi dan visualisasi data.&lt;/p&gt;\n\n\n\n\n&lt;div class=\"listing-date\"&gt;\nSep 7, 2026\n&lt;/div&gt;\n&lt;div class=\"listing-author\"&gt;\nFarhan Fazlurrahman\n&lt;/div&gt;\n\n\n\n\n\n\n\n\n\n\n\nMembaca Sensor Suhu dengan Arduino\n\n\n\nelectronics\n\narduino\n\n\n\nTutorial dasar membaca sensor suhu DHT22 dan menampilkan hasilnya di serial monitor.\n\n\n\n\n\nSep 1, 2026\n\n\nFarhan Fazlurrahman\n\n\n\n\n\n\n\n&lt;!-- img(9CEB782EFEE6)[progressive=false, height=, lazy=true]:listing:posts/random-forest/index.html --&gt;\n\n\n\n\nMemahami Random Forest dari Dasar\n\n\n\nmachine learning\n\npython\n\n\n\n&lt;p&gt;Penjelasan intuitif tentang algoritma Random Forest dan implementasinya dengan scikit-learn.&lt;/p&gt;\n\n\n\n\n&lt;div class=\"listing-date\"&gt;\nAug 25, 2026\n&lt;/div&gt;\n&lt;div class=\"listing-author\"&gt;\nFarhan Fazlurrahman\n&lt;/div&gt;\n\n\n\n\n\n\n\n\n\n\n\nExploratory Data Analysis dengan Python\n\n\n\ndata science\n\npython\n\n\n\nLangkah-langkah dasar melakukan EDA menggunakan pandas, matplotlib, dan seaborn.\n\n\n\n\n\nAug 10, 2026\n\n\nFarhan Fazlurrahman\n\n\n\n\n\n\n\n\n\n\n\n\nKenapa Blog Ini Dibuat?\n\n\n\npersonal\n\n\n\nAlasan di balik keputusan untuk mulai menulis blog tentang data science, machine learning, dan elektronika.\n\n\n\n\n\nJul 24, 2026\n\n\nFarhan Fazlurrahman\n\n\n\n\n\nNo matching items"
   }
 ]
