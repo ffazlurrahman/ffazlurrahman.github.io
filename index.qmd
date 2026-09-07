@@ -1,6 +1,6 @@
 ---
 title: "Good Day, Mate"
-subtitle : "I am a Master of Data Science student at Monash University, with a background in electronics and six years in Indonesia's power industry. This blog is where I write about data science, machine learning, and electronics."
+subtitle: "Catatan tentang Data Science, Machine Learning, dan Electronics — dari seorang mahasiswa Master of Data Science di Monash University."
 listing:
   contents: posts
   feed: true
@@ -12,6 +12,3 @@ listing:
 page-layout: full
 title-block-banner: true
 ---
-
-
-

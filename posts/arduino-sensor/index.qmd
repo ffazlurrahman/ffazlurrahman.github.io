@@ -1,0 +1,57 @@
+---
+title: "Membaca Sensor Suhu dengan Arduino"
+author: "Farhan Fazlurrahman"
+date: "2026-09-01"
+categories: [electronics, arduino]
+description: "Tutorial dasar membaca sensor suhu DHT22 dan menampilkan hasilnya di serial monitor."
+---
+
+*Post ini masih dalam tahap penulisan.*
+
+## Komponen yang Diperlukan
+
+- Arduino Uno
+- Sensor DHT22
+- Resistor 10k ohm
+- Breadboard dan jumper wire
+
+## Rangkaian
+
+Hubungkan pin data DHT22 ke pin digital 2 Arduino, dengan resistor pull-up 10k ohm antara pin data dan VCC.
+
+## Kode Program
+
+```cpp
+#include <DHT.h>
+
+#define DHTPIN 2
+#define DHTTYPE DHT22
+
+DHT dht(DHTPIN, DHTTYPE);
+
+void setup() {
+  Serial.begin(9600);
+  dht.begin();
+}
+
+void loop() {
+  float suhu = dht.readTemperature();
+  float kelembapan = dht.readHumidity();
+
+  Serial.print("Suhu: ");
+  Serial.print(suhu);
+  Serial.print(" C | Kelembapan: ");
+  Serial.print(kelembapan);
+  Serial.println(" %");
+
+  delay(2000);
+}
+```
+
+## Hasil
+
+*Akan dilengkapi dengan screenshot serial monitor.*
+
+## Kesimpulan
+
+*Akan dilengkapi.*

@@ -1,18 +1,14 @@
 ---
-title: "Kenapa Blog ini dibuat? "
+title: "Kenapa Blog Ini Dibuat?"
 author: "Farhan Fazlurrahman"
 date: "2026-07-24"
-categories: [news]
+categories: [personal]
+image: "thumbnail.jpg"
+description: "Alasan di balik keputusan untuk mulai menulis blog tentang data science, machine learning, dan elektronika."
 ---
 
-Alasan kenapa blog ini saya buat antara lain, 
- 
-1. Saat ini, saya menyadari bahwa saya terjebak dalam situasi menghabiskan banyak sekali waktu untuk belajar tetapi kemampuan saya hanya sebatas untuk lulus sebuah mata kuliah, tanpa betul-betul merubah sesuatu yang saya pelajari menjadi sebuah keahlian praktis untuk membangun/mengembangkan sesuatu, hal ini terjadi saya rasa karena saya tidak betul betul menguji sejauh mana pemahaman yang saya miliki. Oleh karena itu saya memerlukan sebuah tempat untuk menguji pemahaman saya akan sesuatu hal, dan menulis adalah cara yang sudah direkomendasikan banyak orang sebagai cara untuk melakukan hal tersebut. Dengan adanya blog ini saya berusaha menjelaskan sesuatu dengan kata-kata saya sendiri. 
+Alasan kenapa blog ini saya buat antara lain:
 
-Sehubungan dengan latar belakang keahlian saya di bidang elektronika/elektrikal dan saat ini saya sedang menyelesaikan studi saya di jurusan Data Science, maka saya akan menulis beberapa hal terkait di kedua bidang tersebut.  
+1. Saat ini, saya menyadari bahwa saya terjebak dalam situasi menghabiskan banyak sekali waktu untuk belajar tetapi kemampuan saya hanya sebatas untuk lulus sebuah mata kuliah, tanpa betul-betul merubah sesuatu yang saya pelajari menjadi sebuah keahlian praktis untuk membangun/mengembangkan sesuatu. Hal ini terjadi saya rasa karena saya tidak betul-betul menguji sejauh mana pemahaman yang saya miliki. Oleh karena itu saya memerlukan sebuah tempat untuk menguji pemahaman saya akan sesuatu hal, dan menulis adalah cara yang sudah direkomendasikan banyak orang sebagai cara untuk melakukan hal tersebut. Dengan adanya blog ini saya berusaha menjelaskan sesuatu dengan kata-kata saya sendiri.
 
-2. Di dunia IT saya rasa memiliki portofolio adalah hal yang penting dan saya rasa perlu pula bagi saya untuk membangun sebuah portofolio. Portofolio merupakan bukti akan keahlian yang kita miliki,dan melalui blog ini saya coba mendokumentasikan apa yang sudah saya pelajari dan kerjakan. 
-
-
-
-![](thumbnail.jpg)
+2. Di dunia IT saya rasa memiliki portofolio adalah hal yang penting dan saya rasa perlu pula bagi saya untuk membangun sebuah portofolio. Portofolio merupakan bukti akan keahlian yang kita miliki, dan melalui blog ini saya coba mendokumentasikan apa yang sudah saya pelajari dan kerjakan.

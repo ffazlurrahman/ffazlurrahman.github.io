@@ -1,0 +1,48 @@
+---
+title: "Memahami Random Forest dari Dasar"
+author: "Farhan Fazlurrahman"
+date: "2026-08-25"
+categories: [machine learning, python]
+description: "Penjelasan intuitif tentang algoritma Random Forest dan implementasinya dengan scikit-learn."
+---
+
+*Post ini masih dalam tahap penulisan.*
+
+## Apa itu Random Forest?
+
+Random Forest adalah algoritma ensemble learning yang menggabungkan banyak decision tree untuk menghasilkan prediksi yang lebih akurat dan stabil.
+
+## Mengapa Random Forest Populer?
+
+- Mudah digunakan dengan sedikit hyperparameter tuning
+- Bekerja baik untuk classification maupun regression
+- Tahan terhadap overfitting dibanding single decision tree
+
+## Implementasi dengan scikit-learn
+
+```python
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+
+model = RandomForestClassifier(n_estimators=100)
+model.fit(X_train, y_train)
+
+y_pred = model.predict(X_test)
+print(f"Accuracy: {accuracy_score(y_test, y_pred):.2f}")
+```
+
+## Feature Importance
+
+```python
+import pandas as pd
+
+importance = pd.Series(model.feature_importances_, index=feature_names)
+importance.sort_values(ascending=False).head(10).plot.barh()
+```
+
+## Kesimpulan
+
+*Akan dilengkapi.*

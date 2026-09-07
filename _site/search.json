@@ -2,29 +2,183 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Farhan Fazlurrahman",
     "section": "",
-    "text": "About this blog"
+    "text": "Saya adalah mahasiswa Master of Data Science di Monash University, dengan latar belakang di bidang elektronika dan enam tahun pengalaman di industri ketenagalistrikan Indonesia.\nBlog ini adalah tempat saya menulis tentang data science, machine learning, dan elektronika — sebagai cara untuk menguji pemahaman dan membangun portofolio."
   },
   {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
-    "title": "Kenapa Blog ini dibuat?",
+    "title": "Kenapa Blog Ini Dibuat?",
     "section": "",
-    "text": "Alasan kenapa blog ini saya buat antara lain,\n\nSaat ini, saya menyadari bahwa saya terjebak dalam situasi menghabiskan banyak sekali waktu untuk belajar tetapi kemampuan saya hanya sebatas untuk lulus sebuah mata kuliah, tanpa betul-betul merubah sesuatu yang saya pelajari menjadi sebuah keahlian praktis untuk membangun/mengembangkan sesuatu, hal ini terjadi saya rasa karena saya tidak betul betul menguji sejauh mana pemahaman yang saya miliki. Oleh karena itu saya memerlukan sebuah tempat untuk menguji pemahaman saya akan sesuatu hal, dan menulis adalah cara yang sudah direkomendasikan banyak orang sebagai cara untuk melakukan hal tersebut. Dengan adanya blog ini saya berusaha menjelaskan sesuatu dengan kata-kata saya sendiri.\n\nSehubungan dengan latar belakang keahlian saya di bidang elektronika/elektrikal dan saat ini saya sedang menyelesaikan studi saya di jurusan Data Science, maka saya akan menulis beberapa hal terkait di kedua bidang tersebut.\n\nDi dunia IT saya rasa memiliki portofolio adalah hal yang penting dan saya rasa perlu pula bagi saya untuk membangun sebuah portofolio. Portofolio merupakan bukti akan keahlian yang kita miliki,dan melalui blog ini saya coba mendokumentasikan apa yang sudah saya pelajari dan kerjakan."
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code."
+    "text": "Alasan kenapa blog ini saya buat antara lain:\n\nSaat ini, saya menyadari bahwa saya terjebak dalam situasi menghabiskan banyak sekali waktu untuk belajar tetapi kemampuan saya hanya sebatas untuk lulus sebuah mata kuliah, tanpa betul-betul merubah sesuatu yang saya pelajari menjadi sebuah keahlian praktis untuk membangun/mengembangkan sesuatu. Hal ini terjadi saya rasa karena saya tidak betul-betul menguji sejauh mana pemahaman yang saya miliki. Oleh karena itu saya memerlukan sebuah tempat untuk menguji pemahaman saya akan sesuatu hal, dan menulis adalah cara yang sudah direkomendasikan banyak orang sebagai cara untuk melakukan hal tersebut. Dengan adanya blog ini saya berusaha menjelaskan sesuatu dengan kata-kata saya sendiri.\nDi dunia IT saya rasa memiliki portofolio adalah hal yang penting dan saya rasa perlu pula bagi saya untuk membangun sebuah portofolio. Portofolio merupakan bukti akan keahlian yang kita miliki, dan melalui blog ini saya coba mendokumentasikan apa yang sudah saya pelajari dan kerjakan."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Good Day, Mate",
     "section": "",
-    "text": "Kenapa Blog ini dibuat?\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 24, 2026\n\n\nFarhan Fazlurrahman\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nJul 8, 2026\n\n\nHarlow Malloc\n\n\n\n\n\nNo matching items"
+    "text": "Pengenalan Tidyverse untuk Data Wrangling\n\n\n\ndata science\n\nR\n\n\n\nMengenal ekosistem tidyverse di R untuk manipulasi dan visualisasi data.\n\n\n\n\n\nSep 7, 2026\n\n\nFarhan Fazlurrahman\n\n\n\n\n\n\n\n\n\n\n\n\nMembaca Sensor Suhu dengan Arduino\n\n\n\nelectronics\n\narduino\n\n\n\nTutorial dasar membaca sensor suhu DHT22 dan menampilkan hasilnya di serial monitor.\n\n\n\n\n\nSep 1, 2026\n\n\nFarhan Fazlurrahman\n\n\n\n\n\n\n\n\n\n\n\n\nMemahami Random Forest dari Dasar\n\n\n\nmachine learning\n\npython\n\n\n\nPenjelasan intuitif tentang algoritma Random Forest dan implementasinya dengan scikit-learn.\n\n\n\n\n\nAug 25, 2026\n\n\nFarhan Fazlurrahman\n\n\n\n\n\n\n\n\n\n\n\n\nExploratory Data Analysis dengan Python\n\n\n\ndata science\n\npython\n\n\n\nLangkah-langkah dasar melakukan EDA menggunakan pandas, matplotlib, dan seaborn.\n\n\n\n\n\nAug 10, 2026\n\n\nFarhan Fazlurrahman\n\n\n\n\n\n\n\n\n\n\n\n\nKenapa Blog Ini Dibuat?\n\n\n\npersonal\n\n\n\nAlasan di balik keputusan untuk mulai menulis blog tentang data science, machine learning, dan elektronika.\n\n\n\n\n\nJul 24, 2026\n\n\nFarhan Fazlurrahman\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/eda-dengan-python/index.html",
+    "href": "posts/eda-dengan-python/index.html",
+    "title": "Exploratory Data Analysis dengan Python",
+    "section": "",
+    "text": "Post ini masih dalam tahap penulisan."
+  },
+  {
+    "objectID": "posts/eda-dengan-python/index.html#pendahuluan",
+    "href": "posts/eda-dengan-python/index.html#pendahuluan",
+    "title": "Exploratory Data Analysis dengan Python",
+    "section": "Pendahuluan",
+    "text": "Pendahuluan\nExploratory Data Analysis (EDA) adalah langkah awal yang krusial dalam setiap proyek data science. Tujuannya adalah memahami struktur, pola, dan anomali dalam data sebelum kita membangun model."
+  },
+  {
+    "objectID": "posts/eda-dengan-python/index.html#tools-yang-digunakan",
+    "href": "posts/eda-dengan-python/index.html#tools-yang-digunakan",
+    "title": "Exploratory Data Analysis dengan Python",
+    "section": "Tools yang Digunakan",
+    "text": "Tools yang Digunakan\n\npandas — manipulasi dan eksplorasi data\nmatplotlib — visualisasi dasar\nseaborn — visualisasi statistik"
+  },
+  {
+    "objectID": "posts/eda-dengan-python/index.html#langkah-langkah-eda",
+    "href": "posts/eda-dengan-python/index.html#langkah-langkah-eda",
+    "title": "Exploratory Data Analysis dengan Python",
+    "section": "Langkah-langkah EDA",
+    "text": "Langkah-langkah EDA\n\n1. Memuat Data\nimport pandas as pd\n\ndf = pd.read_csv(\"data.csv\")\ndf.head()\n\n\n2. Memeriksa Struktur Data\ndf.info()\ndf.describe()\n\n\n3. Visualisasi Distribusi\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\nsns.histplot(df[\"kolom\"], kde=True)\nplt.show()"
+  },
+  {
+    "objectID": "posts/eda-dengan-python/index.html#kesimpulan",
+    "href": "posts/eda-dengan-python/index.html#kesimpulan",
+    "title": "Exploratory Data Analysis dengan Python",
+    "section": "Kesimpulan",
+    "text": "Kesimpulan\nAkan dilengkapi."
+  },
+  {
+    "objectID": "posts/random-forest/index.html",
+    "href": "posts/random-forest/index.html",
+    "title": "Memahami Random Forest dari Dasar",
+    "section": "",
+    "text": "Post ini masih dalam tahap penulisan."
+  },
+  {
+    "objectID": "posts/random-forest/index.html#apa-itu-random-forest",
+    "href": "posts/random-forest/index.html#apa-itu-random-forest",
+    "title": "Memahami Random Forest dari Dasar",
+    "section": "Apa itu Random Forest?",
+    "text": "Apa itu Random Forest?\nRandom Forest adalah algoritma ensemble learning yang menggabungkan banyak decision tree untuk menghasilkan prediksi yang lebih akurat dan stabil."
+  },
+  {
+    "objectID": "posts/random-forest/index.html#mengapa-random-forest-populer",
+    "href": "posts/random-forest/index.html#mengapa-random-forest-populer",
+    "title": "Memahami Random Forest dari Dasar",
+    "section": "Mengapa Random Forest Populer?",
+    "text": "Mengapa Random Forest Populer?\n\nMudah digunakan dengan sedikit hyperparameter tuning\nBekerja baik untuk classification maupun regression\nTahan terhadap overfitting dibanding single decision tree"
+  },
+  {
+    "objectID": "posts/random-forest/index.html#implementasi-dengan-scikit-learn",
+    "href": "posts/random-forest/index.html#implementasi-dengan-scikit-learn",
+    "title": "Memahami Random Forest dari Dasar",
+    "section": "Implementasi dengan scikit-learn",
+    "text": "Implementasi dengan scikit-learn\nfrom sklearn.ensemble import RandomForestClassifier\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import accuracy_score\n\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)\n\nmodel = RandomForestClassifier(n_estimators=100)\nmodel.fit(X_train, y_train)\n\ny_pred = model.predict(X_test)\nprint(f\"Accuracy: {accuracy_score(y_test, y_pred):.2f}\")"
+  },
+  {
+    "objectID": "posts/random-forest/index.html#feature-importance",
+    "href": "posts/random-forest/index.html#feature-importance",
+    "title": "Memahami Random Forest dari Dasar",
+    "section": "Feature Importance",
+    "text": "Feature Importance\nimport pandas as pd\n\nimportance = pd.Series(model.feature_importances_, index=feature_names)\nimportance.sort_values(ascending=False).head(10).plot.barh()"
+  },
+  {
+    "objectID": "posts/random-forest/index.html#kesimpulan",
+    "href": "posts/random-forest/index.html#kesimpulan",
+    "title": "Memahami Random Forest dari Dasar",
+    "section": "Kesimpulan",
+    "text": "Kesimpulan\nAkan dilengkapi."
+  },
+  {
+    "objectID": "posts/arduino-sensor/index.html",
+    "href": "posts/arduino-sensor/index.html",
+    "title": "Membaca Sensor Suhu dengan Arduino",
+    "section": "",
+    "text": "Post ini masih dalam tahap penulisan."
+  },
+  {
+    "objectID": "posts/arduino-sensor/index.html#komponen-yang-diperlukan",
+    "href": "posts/arduino-sensor/index.html#komponen-yang-diperlukan",
+    "title": "Membaca Sensor Suhu dengan Arduino",
+    "section": "Komponen yang Diperlukan",
+    "text": "Komponen yang Diperlukan\n\nArduino Uno\nSensor DHT22\nResistor 10k ohm\nBreadboard dan jumper wire"
+  },
+  {
+    "objectID": "posts/arduino-sensor/index.html#rangkaian",
+    "href": "posts/arduino-sensor/index.html#rangkaian",
+    "title": "Membaca Sensor Suhu dengan Arduino",
+    "section": "Rangkaian",
+    "text": "Rangkaian\nHubungkan pin data DHT22 ke pin digital 2 Arduino, dengan resistor pull-up 10k ohm antara pin data dan VCC."
+  },
+  {
+    "objectID": "posts/arduino-sensor/index.html#kode-program",
+    "href": "posts/arduino-sensor/index.html#kode-program",
+    "title": "Membaca Sensor Suhu dengan Arduino",
+    "section": "Kode Program",
+    "text": "Kode Program\n#include &lt;DHT.h&gt;\n\n#define DHTPIN 2\n#define DHTTYPE DHT22\n\nDHT dht(DHTPIN, DHTTYPE);\n\nvoid setup() {\n  Serial.begin(9600);\n  dht.begin();\n}\n\nvoid loop() {\n  float suhu = dht.readTemperature();\n  float kelembapan = dht.readHumidity();\n\n  Serial.print(\"Suhu: \");\n  Serial.print(suhu);\n  Serial.print(\" C | Kelembapan: \");\n  Serial.print(kelembapan);\n  Serial.println(\" %\");\n\n  delay(2000);\n}"
+  },
+  {
+    "objectID": "posts/arduino-sensor/index.html#hasil",
+    "href": "posts/arduino-sensor/index.html#hasil",
+    "title": "Membaca Sensor Suhu dengan Arduino",
+    "section": "Hasil",
+    "text": "Hasil\nAkan dilengkapi dengan screenshot serial monitor."
+  },
+  {
+    "objectID": "posts/arduino-sensor/index.html#kesimpulan",
+    "href": "posts/arduino-sensor/index.html#kesimpulan",
+    "title": "Membaca Sensor Suhu dengan Arduino",
+    "section": "Kesimpulan",
+    "text": "Kesimpulan\nAkan dilengkapi."
+  },
+  {
+    "objectID": "posts/tidyverse-intro/index.html",
+    "href": "posts/tidyverse-intro/index.html",
+    "title": "Pengenalan Tidyverse untuk Data Wrangling",
+    "section": "",
+    "text": "Post ini masih dalam tahap penulisan."
+  },
+  {
+    "objectID": "posts/tidyverse-intro/index.html#apa-itu-tidyverse",
+    "href": "posts/tidyverse-intro/index.html#apa-itu-tidyverse",
+    "title": "Pengenalan Tidyverse untuk Data Wrangling",
+    "section": "Apa itu Tidyverse?",
+    "text": "Apa itu Tidyverse?\nTidyverse adalah kumpulan package R yang dirancang untuk data science. Package utamanya meliputi dplyr, ggplot2, tidyr, readr, dan purrr."
+  },
+  {
+    "objectID": "posts/tidyverse-intro/index.html#memuat-data",
+    "href": "posts/tidyverse-intro/index.html#memuat-data",
+    "title": "Pengenalan Tidyverse untuk Data Wrangling",
+    "section": "Memuat Data",
+    "text": "Memuat Data\nlibrary(tidyverse)\n\ndf &lt;- read_csv(\"data.csv\")\nglimpse(df)"
+  },
+  {
+    "objectID": "posts/tidyverse-intro/index.html#data-wrangling-dengan-dplyr",
+    "href": "posts/tidyverse-intro/index.html#data-wrangling-dengan-dplyr",
+    "title": "Pengenalan Tidyverse untuk Data Wrangling",
+    "section": "Data Wrangling dengan dplyr",
+    "text": "Data Wrangling dengan dplyr\ndf %&gt;%\n  filter(tahun &gt;= 2020) %&gt;%\n  group_by(kategori) %&gt;%\n  summarise(\n    rata_rata = mean(nilai, na.rm = TRUE),\n    jumlah = n()\n  ) %&gt;%\n  arrange(desc(rata_rata))"
+  },
+  {
+    "objectID": "posts/tidyverse-intro/index.html#visualisasi-dengan-ggplot2",
+    "href": "posts/tidyverse-intro/index.html#visualisasi-dengan-ggplot2",
+    "title": "Pengenalan Tidyverse untuk Data Wrangling",
+    "section": "Visualisasi dengan ggplot2",
+    "text": "Visualisasi dengan ggplot2\nggplot(df, aes(x = kategori, y = nilai, fill = kategori)) +\n  geom_boxplot() +\n  labs(title = \"Distribusi Nilai per Kategori\") +\n  theme_minimal()"
+  },
+  {
+    "objectID": "posts/tidyverse-intro/index.html#kesimpulan",
+    "href": "posts/tidyverse-intro/index.html#kesimpulan",
+    "title": "Pengenalan Tidyverse untuk Data Wrangling",
+    "section": "Kesimpulan",
+    "text": "Kesimpulan\nAkan dilengkapi."
   }
 ]

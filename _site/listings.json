@@ -2,8 +2,11 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/welcome/index.html",
-      "/posts/post-with-code/index.html"
+      "/posts/tidyverse-intro/index.html",
+      "/posts/arduino-sensor/index.html",
+      "/posts/random-forest/index.html",
+      "/posts/eda-dengan-python/index.html",
+      "/posts/welcome/index.html"
     ]
   }
 ]

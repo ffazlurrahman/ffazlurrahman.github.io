@@ -1,19 +1,17 @@
 ---
-title: "About"
+title: "Farhan Fazlurrahman"
 image: profile.jpg
 about:
   template: jolla
   links:
-    - icon: bluesky
-      text: Bluesky
-      href: https://bsky.app/
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://linkedin.com/in/ffazlurrahman
     - icon: github
-      text: Github
-      href: https://github.com
-
+      text: GitHub
+      href: https://github.com/ffazlurrahman
 ---
 
-About this blog
+Saya adalah mahasiswa Master of Data Science di Monash University, dengan latar belakang di bidang elektronika dan enam tahun pengalaman di industri ketenagalistrikan Indonesia.
+
+Blog ini adalah tempat saya menulis tentang data science, machine learning, dan elektronika — sebagai cara untuk menguji pemahaman dan membangun portofolio.

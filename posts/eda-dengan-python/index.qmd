@@ -1,0 +1,51 @@
+---
+title: "Exploratory Data Analysis dengan Python"
+author: "Farhan Fazlurrahman"
+date: "2026-08-10"
+categories: [data science, python]
+description: "Langkah-langkah dasar melakukan EDA menggunakan pandas, matplotlib, dan seaborn."
+---
+
+*Post ini masih dalam tahap penulisan.*
+
+## Pendahuluan
+
+Exploratory Data Analysis (EDA) adalah langkah awal yang krusial dalam setiap proyek data science. Tujuannya adalah memahami struktur, pola, dan anomali dalam data sebelum kita membangun model.
+
+## Tools yang Digunakan
+
+- **pandas** — manipulasi dan eksplorasi data
+- **matplotlib** — visualisasi dasar
+- **seaborn** — visualisasi statistik
+
+## Langkah-langkah EDA
+
+### 1. Memuat Data
+
+```python
+import pandas as pd
+
+df = pd.read_csv("data.csv")
+df.head()
+```
+
+### 2. Memeriksa Struktur Data
+
+```python
+df.info()
+df.describe()
+```
+
+### 3. Visualisasi Distribusi
+
+```python
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+sns.histplot(df["kolom"], kde=True)
+plt.show()
+```
+
+## Kesimpulan
+
+*Akan dilengkapi.*

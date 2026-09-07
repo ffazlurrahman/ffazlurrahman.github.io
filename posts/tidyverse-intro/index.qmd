@@ -1,0 +1,48 @@
+---
+title: "Pengenalan Tidyverse untuk Data Wrangling"
+author: "Farhan Fazlurrahman"
+date: "2026-09-07"
+categories: [data science, R]
+description: "Mengenal ekosistem tidyverse di R untuk manipulasi dan visualisasi data."
+---
+
+*Post ini masih dalam tahap penulisan.*
+
+## Apa itu Tidyverse?
+
+Tidyverse adalah kumpulan package R yang dirancang untuk data science. Package utamanya meliputi `dplyr`, `ggplot2`, `tidyr`, `readr`, dan `purrr`.
+
+## Memuat Data
+
+```r
+library(tidyverse)
+
+df <- read_csv("data.csv")
+glimpse(df)
+```
+
+## Data Wrangling dengan dplyr
+
+```r
+df %>%
+  filter(tahun >= 2020) %>%
+  group_by(kategori) %>%
+  summarise(
+    rata_rata = mean(nilai, na.rm = TRUE),
+    jumlah = n()
+  ) %>%
+  arrange(desc(rata_rata))
+```
+
+## Visualisasi dengan ggplot2
+
+```r
+ggplot(df, aes(x = kategori, y = nilai, fill = kategori)) +
+  geom_boxplot() +
+  labs(title = "Distribusi Nilai per Kategori") +
+  theme_minimal()
+```
+
+## Kesimpulan
+
+*Akan dilengkapi.*

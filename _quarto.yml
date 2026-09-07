@@ -2,28 +2,32 @@ project:
   type: website
 
 website:
-  
+  title: "Farhan Fazlurrahman"
   description: "Electronics, Data Science, and Machine Learning"
   site-url: https://ffazlurrahman.github.io
   navbar:
+    left:
+      - href: index.qmd
+        text: Blog
     right:
-      - about.qmd
+      - href: about.qmd
+        text: About
       - icon: github
         href: https://github.com/ffazlurrahman
       - icon: rss
         href: index.xml
+  search: true
   page-footer:
     left: "© 2026 Farhan Fazlurrahman"
-    center: "Built with Quarto · Hosted on GitHub Pages"
+    center: "Built with Quarto"
     right:
       - icon: github
         href: https://github.com/ffazlurrahman
 
 format:
   html:
-    theme: 
+    theme:
       - cosmo
       - custom.scss
     css: styles.css
     toc: true
-

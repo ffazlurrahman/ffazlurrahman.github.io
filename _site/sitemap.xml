@@ -2,18 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ffazlurrahman.github.io/about.html</loc>
-    <lastmod>2026-07-08T03:43:47.826Z</lastmod>
+    <lastmod>2026-09-07T08:14:57.844Z</lastmod>
   </url>
   <url>
     <loc>https://ffazlurrahman.github.io/posts/welcome/index.html</loc>
-    <lastmod>2026-07-24T07:29:07.592Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ffazlurrahman.github.io/posts/post-with-code/index.html</loc>
-    <lastmod>2026-07-08T03:43:47.826Z</lastmod>
+    <lastmod>2026-09-07T08:15:19.336Z</lastmod>
   </url>
   <url>
     <loc>https://ffazlurrahman.github.io/index.html</loc>
-    <lastmod>2026-07-08T09:51:21.129Z</lastmod>
+    <lastmod>2026-09-07T08:14:54.410Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ffazlurrahman.github.io/posts/eda-dengan-python/index.html</loc>
+    <lastmod>2026-09-07T08:19:50.224Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ffazlurrahman.github.io/posts/random-forest/index.html</loc>
+    <lastmod>2026-09-07T08:19:50.938Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ffazlurrahman.github.io/posts/arduino-sensor/index.html</loc>
+    <lastmod>2026-09-07T08:19:52.356Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ffazlurrahman.github.io/posts/tidyverse-intro/index.html</loc>
+    <lastmod>2026-09-07T08:19:52.816Z</lastmod>
   </url>
 </urlset>
